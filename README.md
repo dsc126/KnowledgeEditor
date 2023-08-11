@@ -18,3 +18,13 @@ Code for Editing Factual Knowledge in Language Models (https://arxiv.org/abs/210
 # Models and Data
 
 This [folder](https://mega.nz/folder/p9JC3bwC#vzcrsh9b-pnWPaWdlcBVUA) contains the datasets and the base models used for this work.
+
+# Installation
+
+```
+conda create -n KnowledgeEditor python=3.7
+conda activate KnowledgeEditor
+cd KnowledgeEditor
+pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install -r requirement.txt
+```
